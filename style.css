@@ -1,0 +1,315 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #D3D4D9;
+    padding: 20px 40px;
+}
+
+header .navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+}
+
+header .navbar ol{
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+    margin: 0;
+}
+
+header .navbar ol li{
+    list-style-type: none;
+    margin: 0;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.works{
+    margin: 100px auto;
+    width: 60%;
+}
+
+.skills a{
+    width: 28%;
+    background-color: #E5E7F0;
+    padding: 15px;
+    border-radius: 20px;
+    color: rgb(73, 71, 71);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.skills h4{
+    color: #8E97C2;
+}
+
+.photoshopH, .vscodeH, .coreldrawH{
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page1:hover{
+    background-color: #d6dbf4;
+    padding: 20px;
+    transition: 0.2s;
+
+}
+
+.techSkills{
+    margin: 100px auto;
+}
+
+.techImg{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about{
+    background-color: #D3D4D9;
+    height: auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.aboutC1, .aboutC2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px auto;
+    width: 60%;
+    
+}
+
+.about1, .about2, .about3, .about4{
+    box-shadow: 0 0 2px 0.3px;
+    width: 40%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.aboutC2{
+    margin-bottom: 50px;
+}
+
+
+#aboutCV{
+    text-decoration: none;
+
+    background-color: #200C85;
+    padding: 10px; color: white; 
+    border-radius: 5px;
+    width: 4110px;
+}
+
+
+.wwu{
+    width: 60%;
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wwu p{
+    width: 50%;
+}
+
+/**vscode**/
+.websiteCards{
+    width: 60%;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.websiteCards a{
+    text-decoration: none;
+    width: 32%;
+    padding: 10px;
+    box-shadow: 0 0 2px;
+    border-radius: 10px;
+    transition: 0.4s linear;
+} 
+
+.websiteCards a:hover{
+    padding: 13px;
+    transition: 0.2s linear;
+}
+
+.websiteCards a img{
+    border-radius: 50%;
+}
+/**.aiwebsite{
+    width: 30%;
+    box-shadow: 0 0 2px 0.3px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.websiteCards .bootstrap{
+    width: 30%;
+    box-shadow: 0 0 2px 0.3px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+**/
+.vscodeDetails{
+    margin: 100px 0;
+    background-color: #D3D4D9;
+    height: auto;
+    padding: 30px;
+}
+
+.back{
+    margin: 100px auto;
+    text-align: center;    
+}
+
+.back a{
+    text-decoration: none; 
+    font-weight: bold; 
+    background-color: #200C85; 
+    padding: 10px; 
+    color: white; 
+    border-radius: 5px;
+}
+
+/*shoot*/
+picture{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    justify-content: space-around;
+}
+
+picture img{
+    width: 200px;
+    margin: 10px;
+}
+
+.download a{
+    background-color: #200C85; 
+    color: white; 
+    font-weight: bold; 
+    padding: 5px; 
+    border-radius: 10px; 
+    text-decoration: none; 
+}
+
+@media (max-width:1000px) {
+    header .navbar ol li{
+        display: none;
+    }
+    
+    header{
+        margin: 10px -10px;
+    }
+
+    .download a{
+        padding: 8px;
+        font-size: 1em;
+
+    }
+
+    .skills{
+        display: block;
+    }
+
+    .works{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .photoshopH, .vscodeH, .coreldrawH{
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .skills a{
+        width: 90%;
+        background-color: transparent;
+    }
+
+    .skills .photoshop, .coreldraw, .vscode{
+            width: 89%;
+            background-color: #E5E7F0;
+            padding: 15px;
+            border-radius: 20px;
+            color: rgb(73, 71, 71);
+            text-decoration: none;
+            transition: 0.3s;
+    }
+
+    #page1:hover{
+        background-color: transparent;
+    }
+
+    .skills .photoshop:hover, .coreldraw:hover, .vscode:hover{
+        background-color: #bfc8f5;
+    }
+
+
+    
+    .about1, .about2, .about3, .about4{
+        box-shadow: 0 0 2px 0.3px;
+        width: 80%;
+        padding: 30px;
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+
+    .wwu{
+        margin: 100px auto;
+        text-align: center;
+        display: block;
+    }
+
+    .wwu p{
+        width: 90%;
+    }
+
+    .websiteCards{
+        display: block;
+    }
+
+    .websiteCards a{
+        text-decoration: none;
+        width: 32%;
+        padding: 10px;
+        box-shadow: 0 0 0px;
+        border-radius: 10px;
+        transition: 0.4s linear;
+        text-align: center;
+        margin-bottom: 100px;
+    } 
+    
+    .websiteCards a:hover{
+        padding: 13px;
+        transition: 0.2s linear;
+    }
+
+    .headdd #aboutCV{
+        padding: 5px;
+    }
+}
